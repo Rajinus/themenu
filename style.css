@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing :border-box;
+    
+}
+body{
+text-align: left;
+}
+.container{
+    max-width:1100px;
+margin:0 auto;
+
+}
+.head{
+    text-align: center;
+    margin:30px;
+
+}
+h2{
+    text-decoration: underline;
+    color:#7fabf8;
+    letter-spacing: 5px;
+    padding-bottom:10px;
+    font-family: "Dancing Script", cursive;
+    font-size:40px;
+}
+.options button{
+    padding:10px 20px;
+    margin:10px;
+    border:1px solid #7fabf8;
+    background-color:#fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color:rgb(0, 0, 0);
+    transition:0.5s;
+}
+.options button:hover{
+    background-color: #7fabf8;
+    border:1px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+}
+.menu,.item{
+    display:flex;
+    
+    
+}
+.item{
+    margin: 20px 10px;
+    padding:15px 10px 10px 10px;
+    width:50%;
+    box-shadow: 6px 6px 12px #9a9a9a;
+}
+/* .img{
+    width: 800px;
+     overflow:hidden;
+    } */
+
+img{
+    width: 235px;
+    height:235px;
+    transition:0.5s;
+   border:1px solid #7fabf8;
+   border-radius:10px;
+}
+img:hover{
+    scale: 1.05;
+
+}
+.detail{
+    padding: 10px 10px 0px 20px;
+
+}
+.cost{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #7fabf8;
+    margin-bottom:40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.cost p{
+color:#7fabf8;
+
+
+}
+.detail p{
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size:13px;
+}
